@@ -7,7 +7,6 @@ if (have_posts()) : ?>
     the_post();
   ?>
 
-
     <div class="card mt-5 mb-3">
       <div class="card-body">
 

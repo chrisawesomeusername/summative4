@@ -9911,12 +9911,10 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .headerImage {
   width: 100vw;
-  height: 50vh;
+  height: 40vh;
   background-position: center;
-  background-size: contain;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -9958,9 +9956,6 @@ header {
   color: white;
 }
 
-/* .myMargin{
-  margin-top: -200px;
-} */
 .jumbotron {
   height: 150px;
 }
@@ -10000,8 +9995,8 @@ header {
   line-height: 1.5 !important;
 }
 
-.footerText {
-  margin-left: 100px;
+#contactMessage {
+  height: 400px;
 }
 
 .facebook {

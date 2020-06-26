@@ -1,34 +1,23 @@
 <div class="row">
 <?php
 if (have_posts()) : ?>
-  <div class="col-lg-9">
+  <div class="card-columns">
     <?php
   while (have_posts()):
     the_post();
   ?>
 
 
-    <div class="card mt-5 mb-3">
+  <div class="card" style="width: 18rem;">
+      <img src="<?php the_post_thumbnail_url(); ?>" class="card-img-top" alt="...">
       <div class="card-body">
+        <h5 class="card-title"><?php the_title(); ?></h5>
+        <p class="card-text"><?php the_excerpt(); ?></p>
+        <a href="<?php the_permalink(); ?>" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
 
-        <!-- featured image -->
-        <?php if(has_post_thumbnail()): ?>
-            <!-- This has a featured image -->
-            <div>
-              <img src="<?php the_post_thumbnail_url('blog-small'); ?>" alt="<?php the_title(); ?>" class="mb-3 img-fluid img-thumbnail">
-            </div>
-      <?php endif; ?>
 
-    <h1> <?php the_title(); ?>   </h1>
-
-    <?php
-    the_excerpt();//cut of some portion of text
-    ?>
-
-    <a href="<?php the_permalink(); ?>" class="text-dark"> Read more </a>
-  </div> <!--card-body-->
-
-</div> <!--card-->
 
 
 

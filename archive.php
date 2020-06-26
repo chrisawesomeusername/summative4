@@ -4,7 +4,7 @@
 <div class="container">
 
 
-  <section class="row ">
+  <section class="d-flex justify-content-center">
 
     <div class="col-lg-9">
 
