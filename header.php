@@ -11,6 +11,7 @@
     <meta name="author" content="Beula">
     <meta name="description" content="Plant Wellington is a community garden blog website. It offers varieties of plants such herbs, shrubs and medicinal plants.">
     <meta name="keywords" content="mint, roses, shrubs, plants, herbs, cactus">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon"> -->
     <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css"> -->
     <script type="text/javascript">

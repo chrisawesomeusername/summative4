@@ -14,9 +14,9 @@
  <p class="footerText"><?php echo get_theme_mod('garden_footerMessage'); ?></p>
 
 
-  <div class="py-3 row">
-    <img class="col footerText facebook" src="<?php echo get_theme_mod('garden_footerIcon'); ?>" alt="facebook" />
-    <p class="col">twitter </p>
+  <div class="row">
+    <i class="fab fa-facebook-square px-2 fa-4x"></i>
+    <i class="fab fa-twitter-square px-2 fa-4x"></i>
     <a href="https://chrisawesomeusername.github.io/my-portfolio/">Developer Portfolio</a>
   </div>
 </footer>
